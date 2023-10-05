@@ -1,0 +1,620 @@
+*{
+    font-size: 10px;
+}
+body,html{
+    height: 100%;
+}
+body{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    background-color: beige;
+}
+#logo1{
+    width: 100px;
+    height: 85px;
+    mix-blend-mode: multiply;
+    filter: invert(100%);
+}
+.name{
+    width:50px;
+}
+h1{
+    font-size: 3.2rem;
+}
+nav{
+     position: fixed;
+     top: 0;
+     z-index: 2;
+     overflow: hidden; 
+     width: 100%;
+     height: 120px;
+     background-color: antiquewhite;
+}    
+.navbar{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 0;
+    justify-content: c; 
+}
+.start{
+    display: flex;
+    align-items:  center;
+    flex:2 0 200px;
+}
+.list1{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 50px;
+    list-style: none;   
+}
+.menu{
+    font-size: 2.5rem;
+    text-decoration: none;
+    color: black;
+}
+.mid{
+    flex:6 0 40vw;
+}
+.end{
+    display: flex;
+    justify-content: space-around;
+    flex:1 0 100px;
+}
+.fa-solid{
+    font-size: 3rem;
+    padding-right: 50px;
+}
+.front{
+    width: 100%;
+}
+.front{
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #D9AFD9;
+   background-image: linear-gradient(225deg, #D9AFD9 8%, #97D9E1 33%, #ffffff 66%, #ffffff 100%);   
+}
+#frontimg{
+    height: 84vh;
+    mix-blend-mode: multiply;
+    width: 100%;
+}
+.bgimg{
+    display: flex;
+    justify-content: flex-start;
+}
+.info1{
+    padding-right: 280px;
+    width: 30%;
+}
+p{
+    font-size: 3.5rem;
+    font-weight:700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#shop{
+    font-size: 3rem;
+    background:local;
+    padding: 15px;
+    border-radius: 5rem;
+    font-weight: 600;
+    border: 2px solid black;
+}
+#login{
+    font-size: 2.4rem;
+    background:local;
+    padding: 10px;
+    border-radius: 5rem;
+    font-weight: 600;
+    border: 2px solid black;
+    color: black;
+    margin-right: 10px;
+}
+.part1,.part2,.part3{
+     margin-bottom: 60px;
+}
+.containers{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 6vh;
+}
+.title1{
+    font-size: 2.6rem;
+    text-align: center;
+}
+.container1,.container2,.container3{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5rem;
+    width: max-content;
+    background-color: rgb(212, 249, 249);
+}
+.image{
+    width: 34rem;
+    height: 36rem;
+    padding: 16px;
+}
+#img1{
+     padding: 0px 15px;
+}
+#img2{
+    padding: 0px 18px;
+}
+#img3{
+    padding: 0px 16px;
+}
+.price{
+    display: flex;
+    gap: 8vw;
+    justify-content: space-between;
+    align-items: center;
+}
+h4{ 
+    font-size: 2.5rem;
+}
+h2{
+    font-size: 4rem;
+    text-align: center;
+}
+h3{
+    font-size: 3.2rem;
+}
+.buy1,.buy2,.buy3{
+   font-size: 2.5rem;
+   padding:10px;
+   background-color: black;
+   color: rgb(212, 249, 249);
+   border-radius: 5rem;
+   border: 0px;
+}
+.buy2{
+    color: rgb(252, 255, 186);
+}
+.buy3{
+    color: rgb(190, 246, 174);
+}
+.seemore{
+    font-size: 3rem;
+    margin-left: 46%;
+    padding: 12px;
+    border: 2px solid black;
+    border-radius: 5rem;
+    background-image: linear-gradient(to right, #4776E6 0%, #8E54E9 51%, #4776E6 100%);
+    color: #ffffff;
+    margin-bottom: 20px;
+}   
+.container2{
+ background-color: rgb(252, 255, 186);
+}
+.container3{
+    background-color: rgb(190, 246, 174);
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);    
+    color: rgb(1, 5, 8);
+    margin-bottom: 10px;
+    border-top: 1.5px solid black;
+    border-bottom:1.5px solid black; ;
+}
+.insta,.facebook,.twitter{
+    width: 4rem;
+    height:4rem;
+    padding-right: 1rem;
+    mix-blend-mode: darken;
+}
+.socialmed{
+    list-style:none;
+}
+.endlist{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    margin-top: -10px;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.list3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 1rem;
+    font-size: 2.5rem;
+}
+.endinfo{
+    font-size: 3rem;
+    color:rgb(1, 1, 24);
+}
+.footerbtn{
+    font-size: 2.5rem;
+    padding: 1rem;
+    border-radius: 5rem;
+    background: local;
+    color: rgb(1, 1, 24);
+}
+.lastline{
+    margin-top: -8px;
+}
+h5{
+    font-size: 2.2rem;
+}
+a{
+    text-decoration: none;
+}
+a,button{
+    cursor: pointer;
+}
+
+/*<------------------------ New arrival page--------------------------->*/
+
+.top,.top1{
+    text-align: center;
+    font-size: 6rem;
+    color: #ffffff;
+    font-weight: 300;
+    margin-top: 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+video{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  z-index: -1;
+  opacity: 0.9;
+}
+.front1{
+    top: 0;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));   
+    margin-bottom: 15px; 
+}
+.top1{
+    color: black;
+    font-size: 4rem;   
+}
+#onvideo{
+    font-size: 4rem;
+    position: absolute;
+    top: 40vh;
+    left: 45vh;
+    width: 100vh;
+    color: #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.menarrival,.womenarrival{
+    width:30rem;
+    height: 32rem;
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.box1,.box2{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    border: 2px solid black;
+    padding: 0px 15px;
+    background-color: whitesmoke;
+    border-radius: 5rem;
+}
+.box2{
+    background-color: aliceblue;
+}
+.price-NA{
+    display: flex;
+    gap: 4vw;
+    justify-content: space-around;
+    align-items: center;
+}
+.buy4{
+    padding: 10px;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 2.5rem;
+    border-radius: 5rem;
+}
+
+/*<-----------------------------Mens page------------------------------------------>*/
+
+.mens-title{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3.5rem;
+}
+.mens-box1,.mens-box2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:10px;
+    margin-bottom: 20px;
+}
+.mens-box1 > div[class^="mens-box1"],
+.mens-box2 > div[class^="mens-box2"]{
+    width: fit-content;
+    background-color: aliceblue;
+    border: 2px solid black;
+    border-radius: 5rem;
+}
+.mens-img{
+    width: 30rem;
+    height: 33rem;
+    padding: 0px 15px;
+}
+.mens-inner-title1{
+    font-size: 3rem;
+    text-align: center;
+}
+.mens-price{
+    display: flex;
+    gap: 4vw;
+    justify-content: space-around;
+    align-items: center;
+}
+.mens-buy{
+    padding: 10px;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 2.5rem;
+    border-radius: 5rem;
+}
+
+/*<---------------------------------Womens Page------------------------------------->*/
+
+.womens-title{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3.5rem;
+}
+.womens-box1,.womens-box2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:10px;
+    margin-bottom: 20px;
+}
+.womens-box1 > div[class^="womens-box1"],
+.womens-box2 > div[class^="womens-box2"]{
+    width: fit-content;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5rem;
+}
+.womens-img{
+    width: 30rem;
+    height: 33rem;
+    padding: 0px 15px;
+}
+.womens-inner-title1{
+    font-size: 3rem;
+    text-align: center;
+}
+.womens-price{
+    display: flex;
+    gap: 4vw;
+    justify-content: space-around;
+    align-items: center;
+}
+.womens-buy{
+    padding: 10px;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 2.5rem;
+    border-radius: 5rem;
+}
+
+/*<---------------------------------Accesories Page----------------------------------------------->*/
+
+.accesories-title{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3.5rem;
+}
+.accesories-box1,.accesories-box2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:10px;
+    margin-bottom: 20px;
+}
+.accesories-box1 > div[class^="accesories-box1"],
+.accesories-box2 > div[class^="accesories-box2"]{
+    width: fit-content;
+    background-color: rgb(247, 251, 210);
+    border: 2px solid black;
+    border-radius: 5rem;
+}
+.accesories-img{
+    width: 30rem;
+    height: 33rem;
+    padding: 0px 15px;
+}
+.accesories-inner-title1{
+    font-size: 3rem;
+    text-align: center;
+}
+.accesories-price{
+    display: flex;
+    gap: 4vw;
+    justify-content: space-around;
+    align-items: center;
+}
+.accesories-buy{
+    padding: 10px;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 2.5rem;
+    border-radius: 5rem;
+}
+
+/*<--------------------------------------Login Page------------------------------------->*/
+
+header .header{
+  background-color: #fff;
+  height: 45px;
+}
+.login-title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header a img{
+  width: 134px;
+margin-top: 4px;
+}
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.login-page .form .login{
+  margin-top: -31px;
+margin-bottom: 26px;
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form button {
+  text-transform: uppercase;
+  outline: 0;
+  background-color:rgb(0, 0, 64);
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.form .message a {
+  color:black;
+  text-decoration: none;
+}
+.credentials{
+    font-size: 2rem;
+}
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+/*<-----------------------------Cart----------------------------------->*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: #000000;
+    text-align: center;
+    padding: 20px 0;
+}
+
+table {
+    text-align: center;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 2px solid #000000;
+}
+
+th, td {
+    font-size: 2.4rem;
+    padding: 10px;
+    text-align: left;
+}
+
+.remove-button {
+    font-size: 2.5rem;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.cart-total {
+    text-align: right;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.cart-buttons {
+    text-align: right;
+    margin-top: 10px;
+}
+
+.update-button {
+    font-size: 2.5rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.checkout-button {
+    font-size: 2.5rem;
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.cart-img{
+    max-width: 200px;
+    height:250px;
+}
